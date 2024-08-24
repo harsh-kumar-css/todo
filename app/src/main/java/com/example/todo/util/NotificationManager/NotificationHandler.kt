@@ -49,7 +49,7 @@ class NotificationHandler(private val context: Context) {
         notificationManager.notify(Random.nextInt(),notification)
     }
 }
-
+//
 
 /* now we want to go to our app, when we click on the notification
  but as we left our app , we wont be able to run our code , as we are not in our app, so for that we have pending intents
